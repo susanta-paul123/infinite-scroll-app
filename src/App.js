@@ -54,10 +54,10 @@ function App() {
           </Col>
         </Row>
          <Row>
-            {data.map((udata, id ) => 
+            {data.map((udata, i) => 
                     
                     (
-                        <Col md={4} key={id} style={{marginBottom:"30px"}}>  
+                        <Col md={6} lg={4} key={i} style={{marginBottom:"30px"}}>  
                             <div className="box overflow-hidden">
                               <div className="figure overflow-hidden">
                                 <img src={require('./assets/winters.jpg')} alt="" className="img-fluid"/>
